@@ -56,10 +56,11 @@ header {
 .characters li a { text-decoration: none; }
 
 .red_bumper {
-  width: 100%;
-  height: 6px;
-  background-color: red;
+    width: 100%;
+    height: 6px;
+    background-color: red;
 }
+
 
 article { 
   padding: 20px;
@@ -120,16 +121,22 @@ footer {
   left: 0;
 
   background-color: rgba(0, 0, 0, 0.85);
-  background-image: url('../images/Cap_LB_Bg.png');
+  background-image: url('../images/INDIA.jpg');
   background-repeat: no-repeat;
 
   background-size: 55vh; /* 55% of the viewport height */
   background-position: 40px bottom;
 
+  z-index: 5000;
+
   display: none;
 }
 
-#lightbox2 { background-image: url('../images/Thor_LB_Bg.png'); }
+#lightbox2 { background-image: url('../images/BRAZIL.jpg'); }
+#lightbox3 { background-image: url('../images/ARGENTINA.jpg');}
+#lightbox4 { background-image: url('../images/PORTUGAL.jpg');}
+#lightbox5 { background-image: url('../images/SAUDI.jpg'); }
+#lightbox6 { background-image: url('../images/JAPAN.jpg');}
 
 .lightbox_close {
   position: relative;
