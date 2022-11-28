@@ -46,7 +46,21 @@ header {
   text-align: left;
 
   cursor: pointer;
+
 }
+
+.characters li:hover { 
+  transition: 0.2s ease;
+
+
+  background-color: rgb(136, 0, 0);
+
+  text-align: left;
+
+  cursor: pointer;
+  
+}
+
 
 .characters li h5 {
   color: white;
